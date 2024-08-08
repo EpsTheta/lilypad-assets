@@ -1,2 +1,1 @@
-# lilypad-assets
-Assets for my bot, Lilypad!
+## Assets for my bot, Lilypad!
