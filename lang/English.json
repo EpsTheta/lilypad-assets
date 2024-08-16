@@ -14,13 +14,13 @@
             },
             "Assassin": {
                 "RoleName": "Assassin",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Assassin is an evil guesser and part of the Impostor team. While in meeting the Assassin first vote locks in the player they're going to guess. Then the Assassin uses a chat command to guess the role (i.e. /r [role]). The Assassin's second guess locks in the guess. The Assassin has the ability to kill regularly and will suicide if they miss-guess.",
                 "Blurb": "Guess the oppositions roles."
             },
             "Blackmailer": {
                 "RoleName": "Blackmailer",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Shapeshift into a player to blackmail them.\\nDuring meeting, the blackmailed player will have text displaying \"BLACKMAILED\" to all players.\\nIf the Blackmailed player attempts to speak a certain amount of times (Depends on settings), they will die.",
                 "Blurb": "Shapeshifting Will Blackmail Target",
                 "BlackmailMessage": "You have been blackmailed! Sending a chat message will kill you.",
@@ -35,25 +35,25 @@
             },
             "BountyHunter": {
                 "RoleName": "Bounty Hunter",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Bounty Hunter will receive a target whose name will show under their name. If the Bounty Hunter kills their target, their kill cooldown is significantly reduced for their next kill. The time it takes for the target to change, the kill cooldown after killing their target, and kill cooldown after killing a non-target are predetermined by host in settings.",
                 "Blurb": "Kill Bounty Players & Gain a Reduced Kill Cooldown"
             },
             "Camouflager": {
                 "RoleName": "Camouflager",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Shapeshift into a player and cause every living player to shapeshift into the chosen player for a short amount of time. When the duration is over (predetermined by host in settings), or if a meeting is called, players return to their normal form.",
                 "Blurb": "Disguise Everyone"
             },
             "Consort": {
                 "RoleName": "Consort",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Pet button to alternate between Role-Blocking a player and Killing. Role-Blocks prevent the player from killing, reporting bodies, calling meetings, shapeshifting, and/or venting.",
                 "Blurb": "Role-Block Players"
             },
             "Creeper": {
                 "RoleName": "Creeper",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Creeper's only job is to cause as much chaos as possible. Use either your Pet or Shapeshift button to kill yourself and any player within a radius determined by host.\\nYou might find yourself lucky and be protected from your bombs with a shield (ex. medic shield) and live to see another day. If the option is off however, nothing can protect you.",
                 "Blurb": "Bomb Players",
                 "Options": {
@@ -67,7 +67,7 @@
             },
             "Disperser": {
                 "RoleName": "Disperser",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use Pet button to teleport everyone to a random vent.",
                 "Blurb": "Teleport Players",
                 "Options": {
@@ -77,13 +77,13 @@
             },
             "Escapist": {
                 "RoleName": "Escapist",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Pet button to mark a location. After a minor cooldown, you can re-use the Pet button to teleport back to your marked location. This will then put the mark ability on cooldown for a set amount of time.",
                 "Blurb": "Mark a Location & Strategically Escape"
             },
             "FireWorks": {
                 "RoleName": "FireWorks",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Shapeshift button to plant fireworks (aka bombs) around the map until the Max Firework Count has been reached (determined by host). Use Shapeshift button again to detonate all of the Fireworks, killing everyone within radius of each firework. Can also kill normally between placing fireworks.\\n\\nNote - The explosion goes through walls\\n\\n",
                 "Blurb": "Plant Fireworks to Explode Players",
                 "Options": {
@@ -95,19 +95,19 @@
             },
             "Freezer": {
                 "RoleName": "Freezer",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Shapeshift into a player to freeze that selected player for the duration of the shapeshift. Can kill at any time.",
                 "Blurb": "Shapeshift Into A Player To Freeze Them In Place"
             },
             "Grenadier": {
                 "RoleName": "Grenadier",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Using the Pet button sets off a flash-bang, blinding players in a certain radius. It may also blind allied-Impostors, based on the settings.",
                 "Blurb": "Blind Nearby Players"
             },
             "IdentityThief": {
                 "RoleName": "Identity Thief",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Identity Thief shapeshifts into whoever they kill. The disguise lasts until they are ready to kill again, or, optionally, until they kill another player and shift into their next victim.",
                 "Blurb": "Shapeshift Into Your Victim",
                 "Options": {
@@ -118,15 +118,15 @@
                     "UntilMeeting": "Until Meeting"
                 }
             },
-            "Impostor": {
-                "RoleName": "Impostor",
-                "Faction": "Impostor",
+            "Impostors": {
+                "RoleName": "Impostors",
+                "Faction": "Impostors",
                 "Blurb": "Kill Crewmates and Neutrals.",
                 "Description": "A vanilla impostor. Kill all other players, less your allies, and be the last faction standing."
             },
             "Janitor": {
                 "RoleName": "Janitor",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Choose between killing and cleaning at the end of kill cooldown. Use Report button to clean dead bodies, making them un-reportable. Use Kill button to kill players. The Janitor is unable to report bodies normally. The host may also set it so that bodies are automatically cleaned upon being killed.",
                 "Blurb": "Report Bodies To Make Them Un-reportable.",
                 "Options": {
@@ -156,13 +156,13 @@
                 "SelectedItemMessage": "You have selected to purchase {0}. Purchasing this will leave you with {1} cash. Press the skip vote button to continue your purchase.",
                 "PurchaseItemMessage": "You have purchased: {0}. You now have {1} cash leftover.",
                 "RoleName": "Mafioso",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Blurb": "Gain cash by completing tasks",
                 "Description": "The Mafioso is a unique impostor role, who cannot kill off the bat. Instead the Mafioso must complete tasks in order to gain cash. During meetings, the Mafioso can use their cash to purchase a couple of different items.\\n\\nTommy Gun - Allows the Mafioso to kill (one time purchase)\\n\\nBullet - Required to use with the Tommy Gun\\n\\nBulletproof Vest - Gives the Mafioso one-time use invincibility for next round\\n\\nRole Revealer - Allows the Mafioso to reveal the role of one other player\\n\\nType /o to see how much each item costs. Only items you are able to use/buy will show up in the shop."
             },
             "Mare": {
                 "RoleName": "Mare",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Obtain increased speed and decreased kill cooldown during the sabotages determined by host. Be careful! If it's enabled, your name will appear purple while your ability is active.",
                 "Blurb": "Sabotage to Unleash Your Powers"
             },
@@ -176,31 +176,31 @@
                 "ManipulatedText": "Manipulated",
                 "KillImploredText": "You <b>MUST</b> Kill Someone In {0}\n(Use either your Kill or Pet button!)",
                 "RoleName": "Mastermind",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "As the Mastermind, you have the ability to manipulate players. By using your kill button on someone, you can manipulate them into killing for you. The manipulated must use their Kill/Pet button to kill others. If the manipulated player does not kill in time, they will suicide.",
                 "Blurb": "Manipulate and control others."
             },
             "Miner": {
                 "RoleName": "Miner",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Pet button to teleport to the last vent used. Kill, vent, and sabotage like any other Impostor role.\\n\\nPro Tip - Make sure you have enough room for the Pet animation!",
                 "Blurb": "Use Pet To Teleport to Vents"
             },
             "Morphling": {
                 "RoleName": "Morphling",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Morphling can shapeshift themselves into any player that was still alive at the end of the last meeting.\\nIt is the Vanilla Shapeshifter.",
                 "Blurb": "Morph Into Other Players"
             },
             "Ninja": {
                 "RoleName": "Ninja",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Pet or Shapeshift button (depending on host's settings) to switch between Hunting and Killing mode. While in Hunting mode, use the Kill button to mark a target, then use the Pet button to teleport the player to you (or you to the player depending on settings) and execute the kill. Ninja may not use their Kill button to kill normally while in Hunting mode.\\n\\nPro Tip - Make sure you have enough room for the Pet animation!",
                 "Blurb": "Discreetly kill your Victims"
             },
             "PickPocket": {
                 "RoleName": "Pickpocket",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Pickpocket steals the votes from the players they kill. These votes stack up, which can make the Pickpocket very powerful. They may have a maximum number of votes depending on host's settings.",
                 "Blurb": "Steal Votes From Your Kills",
                 "Options": {
@@ -210,13 +210,13 @@
             },
             "Puppeteer": {
                 "RoleName": "Puppeteer",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Puppeteer cannot perform a normal kill. Instead, they can control a player and force them to kill the next non-Impostor they come near.\\n\\nUse the Kill button next to a player to gain control over them. If the person who was killed by the Puppeteer's victim has an ability that activates upon dying, then the victim will have the ability affect them.",
                 "Blurb": "Control Players"
             },
             "Sniper": {
                 "RoleName": "Sniper",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use Shapeshift button to shift into another player. Take 1-2 steps in the direction you want to fire and un-shift to shoot. A bullet will travel in that direction until it kills a player.\\n\\nWhen out of bullets, Sniper turns into a normal Impostor.",
                 "Blurb": "Kill From A Far Distance",
                 "Options": {
@@ -229,19 +229,19 @@
             },
             "Swooper": {
                 "RoleName": "Swooper",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Vent button to temporarily become invisible. Venting while invisible will cause the Swooper to become visible again. NOTE -  If the Swooper kills the Demolitionist, it will die as Swooper cannot full vent.",
                 "Blurb": "Vent To Become Invisible"
             },
             "TimeThief": {
                 "RoleName": "Time Thief",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Kill players to decrease meeting/voting time.",
                 "Blurb": "Decrease Meeting and Voting Time"
             },
             "Vampire": {
                 "RoleName": "Vampire",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Vampire's Kill/Bite button causes a delayed kill. The bitten player will die after a certain amount of time (which host controls) or when the next meeting is called.\\n\\nIf the Vampire bites Bait, the player will die immediately, and they will self-report.",
                 "Blurb": "Delayed Kills",
                 "Options": {
@@ -250,19 +250,19 @@
             },
             "Vampiress": {
                 "RoleName": "Vampiress",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Like the vampire, the Vampiress can bite players who will then die after a certain time (determined by host), however, it can also make direct kills like regular impostors. Use the Pet Button to switch between Bite and Kill.\\n\\nPro Tip - Make sure you have enough room for the Pet animation!",
                 "Blurb": "Delayed & Normal Kills"
             },
             "Warlock": {
                 "RoleName": "Warlock",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "Use the Kill Button to curse a player. The next time the Warlock shapeshifts, the cursed player will kill the nearest person. The Warlock may kill normally while shapeshifted.\\n\\nBe Careful! Cursed players can kill allied Impostors (and even the Warlock themself!).",
                 "Blurb": "Curse Players and Force Them to Kill Others"
             },
             "Witch": {
                 "RoleName": "Witch",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Witch's Kill/Spell Button alternates between spelling and killing players.\\n\\nPlayers will who are spelled by the witch will be seen with a cross during the meeting. If the Witch is not voted off during this meeting, the cursed player dies.\\n\\nRegular kill self-reports Bait.\\nSpell does not self-report Bait.",
                 "Blurb": "Kill & Cast Spells",
                 "Options": {
@@ -277,32 +277,32 @@
             },
             "YinYanger": {
                 "RoleName": "Yin Yanger",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Yin Yanger can make two Crewmates kill each other. Use the Kill button to tag two players. When they come within kill distance, they will kill each other. Yin Yanger can kill normally once targets have been set.",
                 "Blurb": "Make Two Players Kill Each Other",
                 "YinYangCooldown": "Yin Yang Cooldown"
             },
             "Madmate": {
                 "RoleName": "Madmate",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Madmate is a Impostor sided Crewmate. They are unable to kill and do not know who the Impostors are and the Impostors cannot tell them apart from other Crewmates.\\n\\nWhat To Do:\\nTry to get back into the Impostors good graces.\\nAct sus. Take suspicion off of Impostors by pretending to fix sabotages, venting, etc.",
                 "Blurb": "Betray the Crewmates"
             },
             "MadGuardian": {
                 "RoleName": "Mad Guardian",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Mad Guardian is an Impostor sided Crewmate.\\nThe Mad Guardian must do tasks to become invincible.\\nMadmates do not know who the Impostors are and the Impostors cannot tell who they are from other Crewmates.",
                 "Blurb": "Finish Tasks To Become Unkillable"
             },
             "MadSnitch": {
                 "RoleName": "Mad Snitch",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Mad Snitch is an Impostor sided Crewmate.\\n\\nMuch like the Snitch, The Mad Snitch must complete tasks to figure out the Impostors to defend them in meetings.\\n\\nThey do not know who the Impostors are and the Impostors cannot tell them apart from other Crewmates.",
                 "Blurb": "Finish Tasks To See Impostors"
             },
             "Parasite": {
                 "RoleName": "Parasite",
-                "Faction": "Impostor",
+                "Faction": "Impostors",
                 "Description": "The Parasite is an Impostor Sided Killer who is able to kill but doesn't know who the Impostors are and vice versa. The Parasite is able to do everything that a regular Impostor can do, and it must work with the Impostors to win together.. If they're still alive, that is. *wink*",
                 "Blurb": "Work with the Impostors to win."
             },
